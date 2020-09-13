@@ -8,10 +8,12 @@
 		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
+		<script src="tattvas.js"></script>
+		<script src="app.js"></script>
 		<article id="santana-app">
-            <object data="santana.svg" type="image/svg+xml" id="santana" height="100%"></object>
+            <object data="santana.svg" type="image/svg+xml" onload="app()" id="santana-object" height="100%"></object>
             <div id="overlay"><article id="info"></article></div>
 		</article>
-		<script type="module" src="app.js"></script>
+		
 	</body>
 </html>

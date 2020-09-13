@@ -1,4 +1,4 @@
-export const chakras = {
+const chakras = {
   muladhara: {
     sans: "मूलाधार",
     trans: "mūlādhāra",
@@ -49,80 +49,8 @@ export const chakras = {
   }
 };
 
-export const groups = {
-  mahabhuta: {
-    sans: "महाभूतं",
-    trans: "MAHĀBHŪTA",
-    name: "Грубый элемент",
-    text: "Преимущественно тамасичные",
-    entities: ["prithivi", "apas", "agni", "vayu", "akasha"]
-  },
-  tanmatra: {
-    sans: "तन्मात्र",
-    trans: "TANMĀTRA",
-    name: "Тонкий элемент",
-    text: "Преимущественно тамасичные"
-  },
-  karmendriya: {
-    sans: "कर्मेन्द्रिय",
-    trans: "KARMENDRIYA",
-    name: "Сила действия",
-    text: "Преимущественно раджасичные"
-  },
-  jnanendriya: {
-    sans: "ज्ञानेन्द्रिय",
-    trans: "JÑĀNENDRIYA",
-    name: "Сила восприятия",
-    text: "Преимущественно саттвичные"
-  },
-  antahkarana: {
-    sans: "अन्तःकरण",
-    trans: "ANTAḤKARAṆA",
-    name: "Внутренний орган",
-    text: "Психический мир в целом."
-  },
-  kancuka: {
-    sans: "कञ्चुक",
-    trans: "KAÑCUKA",
-    name: "Покров",
-    text: "Ограничения, определяющие индивидуальное сознание"
-  }
-};
 
-export const bijas = {
-  lam: {
-    sans: "लं",
-    trans: "laṃ",
-    title: "Лам"
-  },
-  vam: {
-    sans: "वं",
-    trans: "vaṃ",
-    title: "Вам"
-  },
-  ram: {
-    sans: "रं",
-    trans: "raṃ",
-    title: "Рам"
-  },
-  yam: {
-    sans: "यं",
-    trans: "yaṃ",
-    title: "Ям"
-  },
-  ham: {
-    sans: "हं",
-    trans: "haṃ",
-    title: "Хам"
-  },
-  om: {
-    sans: "ॐ",
-    trans: "oṃ",
-    title: "Ом"
-  }
-};
-
-export const nadis = {
+const nadis = {
   ida: {
     sans: "इडा",
     trans: "iḍā",
@@ -143,7 +71,7 @@ export const nadis = {
   },
 }
 
-export const tattvas = {
+const tattvas = {
   prithivi: {
     num: 36,
     group: "mahabhuta",

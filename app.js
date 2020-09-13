@@ -1,11 +1,11 @@
-import { nadis, chakras, tattvas } from './tattvas.js'
+
 const vishva = {...tattvas, ...chakras, ...nadis}
-const svg = document.getElementById('santana')
+
 let active = null
-window.addEventListener('load', app, false)
+
 
 function app() {
-  
+  const svg = document.getElementById('santana-object')
   const svgDoc = svg.contentDocument
   const aham = svgDoc.getElementById('aham')
   const overlay = document.getElementById('overlay')
