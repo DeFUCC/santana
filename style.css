@@ -1,0 +1,27 @@
+#santana {
+    max-height: 100vh;
+    min-height: 100vh;
+}
+
+#santana-app {
+    position: relative;
+    width: min-content;
+}
+
+#overlay {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#overlay article {
+    padding: 2em;
+    background-color: rgba(255,255,255,.2);
+}
+
+#overlay.open {
+    display: block;
+}
