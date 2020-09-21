@@ -2,15 +2,20 @@
   --height: 90vh;
 }
 
-#santana-object {
+#object {
   max-height: var(--height);
   min-height: var(--height);
+}
+
+#object svg {
+  cursor: pointer;
 }
 
 #santana-app {
   position: relative;
   width: min-content;
   height: min-content;
+  cursor: pointer;
 }
 
 #overlay {
