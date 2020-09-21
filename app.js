@@ -5,7 +5,7 @@ let active = null
 
 
 function app() {
-  const svg = document.getElementById('santana-object')
+  const svg = document.getElementById('sat-object')
   const svgDoc = svg.contentDocument
   const aham = svgDoc.getElementById('aham')
   const overlay = document.getElementById('overlay')
